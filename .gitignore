@@ -1,0 +1,5 @@
+server/*
+!server/libraries
+!server/run.bat
+!server/run.sh
+!server/user_jvm_args.txt
