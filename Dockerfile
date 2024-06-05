@@ -4,8 +4,6 @@ COPY server /server
 
 WORKDIR /server
 
-RUN echo "test"
-RUN ls -a
-RUN echo "test"
+RUN ["chmod", "+x", "/node/execure.sh"]
 
 CMD ["./run.sh"]
