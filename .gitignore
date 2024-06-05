@@ -3,3 +3,4 @@ server/*
 !server/run.bat
 !server/run.sh
 !server/user_jvm_args.txt
+!server/eula.txt
